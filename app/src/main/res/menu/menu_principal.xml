@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mFavoritos"
+        android:icon="@drawable/ic_stars"
+        android:title="Favoritos"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/mSobre"
+        android:icon="@drawable/ic_info_outline"
+        android:title="Sobre"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/mConfiguracao"
+        android:icon="@drawable/ic_settings"
+        android:title="Configuração"
+        app:showAsAction="never"></item>
+
+    <item android:id="@+id/mCompartilhar"
+        android:icon="@drawable/ic_share"
+        android:title="Compartilhar"
+        app:showAsAction="never"></item>
+
+    <item android:id="@+id/mTempo"
+        android:icon="@drawable/ic_share"
+        android:title="Compartilhar"
+        app:showAsAction="never"></item>
+</menu>
